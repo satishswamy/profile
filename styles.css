@@ -1,0 +1,35 @@
+body {
+    
+}
+
+hr {
+    border-color:#6983aa;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+  
+    width: 3%;
+}
+
+h2 {
+    color: #8566aa;
+    font-family: 'Calibri', sans-serif;
+}
+h4 {
+    
+    font-family: 'Calibri', sans-serif;
+}
+h6 {
+    
+    font-family: 'Calibri', sans-serif;
+}
+p {
+    font-family: 'Calibri', sans-serif;
+    font-size: 12px;
+  }
+
+ul {
+    font-family: 'Calibri', sans-serif;
+    font-size: 12px;
+
+  }
