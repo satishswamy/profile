@@ -1,5 +1,46 @@
+h1 {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    color: #ececec;
+    font-weight: bold;
+    line-height: 1;
+}
+h2 {
+    display: block;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #30475e;
+}
+h3 {
+    display: block;
+    margin: 10px;
+    font-family: 'Spartan', sans-serif;
+    color: #c1a57b;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+h6 {
+    display: block;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+    color: #ececec;
+    line-height: 2;
+}
 body {
-    
+    margin: 0;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
+    font-family: 'Spartan', sans-serif;
+    text-align: justify;
+}
+
+p {
+    display: block;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+    font-size: small;
+    color: #222831;
+    line-height: 1.5; 
 }
 
 hr {
@@ -7,29 +48,158 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
-  
+    align-self: center;
+    width: 3%;
+    margin-left: 50%;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    
+    background-color: #ececec;
+    
+    left: 0;
+    top: 0;
+    
+}
+
+.middle {
+    
+    width: 99%;
+    background-color: #ececec;
+    position: absolute;
+    top: 75px;
+    padding: 10px;
+    left: 0;
+    ;
+}
+.top {
+    height: 75px;
+    width: 100%;
+    background-color: #c1a57b;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    left: 0;
+}
+
+.bottom {
+    height: 15px;
+    width: 100%;
+    background-color: #30475e;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    left: 0;
+    font-size: x-small;
+    font-style: normal;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: 0 auto;
+}
+.img-code {
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.img-web {
+    width: 10%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.imgtop {
+    float: right;
+    margin-right: 20px;
     width: 5%;
 }
 
-h2 {
-    color: #8566aa;
-    font-family: 'Calibri', sans-serif;
+.skill-row1 {
+    width: 75%;
+    margin: 50px auto;
+    text-align: justify;
 }
-h4 {
-    
-    font-family: 'Calibri', sans-serif;
+
+.skill-row2 {
+    width: 75%;
+    margin: 50px auto;
+    text-align: justify;
 }
-h6 {
-    
-    font-family: 'Calibri', sans-serif;
+
+.contact-me {
+    margin-bottom: 60px;
 }
-p {
+
+.testbutton {
+    font-family: arial;
+    font-weight: bold;
+    color: #14396A !important;
+    font-size: 10px;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 2px solid #C1A57B;
+    background: #63B8EE;
+    background: linear-gradient(top,  #C1A57B,  #E0C08F);
+    background: -ms-linear-gradient(top,  #C1A57B,  #E0C08F);
+    background: -webkit-gradient(linear, left top, left bottom, from(#C1A57B), to(#E0C08F));
+    background: -moz-linear-gradient(top,  #C1A57B,  #E0C08F);
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(top,  #C1A57B,  #FFDAA3);
+    background: -ms-linear-gradient(top,  #C1A57B,  #FFDAA3);
+    background: -webkit-gradient(linear, left top, left bottom, from(#C1A57B), to(#FFDAA3));
+    background: -moz-linear-gradient(top,  #C1A57B,  #FFDAA3);
+    text-decoration: underline;
+  }
+
+  a {
+      margin-left: 20px;
+  }
+  a:link {
+    color: #c1a57b;
+    text-decoration: none;
+    font-family: 'Calibri', sans-serif;
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #c1a57b;
+    text-decoration: none;
     font-family: 'Calibri', sans-serif;
     font-size: 12px;
   }
-
-ul {
+  
+  /* mouse over link */
+  a:hover {
+    color: #ececec;
+    text-decoration: underline;
     font-family: 'Calibri', sans-serif;
     font-size: 12px;
-
+  }
+  
+  /* selected link */
+  a:active {
+    color: #c1a57b;
+    text-decoration: underline;    
+    font-family: 'Calibri', sans-serif;
+    font-size: 12px;
+  }
+  
+  .copyright {
+    color: #ececec;
+    text-decoration: none;    
+    font-family: 'Calibri', sans-serif;
+    font-size: 12px;
   }
